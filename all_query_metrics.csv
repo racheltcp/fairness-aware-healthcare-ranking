@@ -1,0 +1,321 @@
+query,query_intent,retrieval_tier_used,ranking,precision@k,recall@k,ndcg@k,representation@k,corpus_representation,group_exposure,non_group_exposure,exposure_gap
+fertility specialist near me,fertility,state+intent+telehealth,baseline,0.0,0.0,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+fertility specialist near me,fertility,state+intent+telehealth,linear_fairness,0.0,0.0,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+fertility specialist near me,fertility,state+intent+telehealth,mmr_fairness,0.0,0.0,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+fertility specialist near me,fertility,state+intent+telehealth,fair_top_k,0.0,0.0,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+IVF clinic California,fertility,state+intent+telehealth,baseline,0.0,0.0,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+IVF clinic California,fertility,state+intent+telehealth,linear_fairness,0.0,0.0,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+IVF clinic California,fertility,state+intent+telehealth,mmr_fairness,0.0,0.0,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+IVF clinic California,fertility,state+intent+telehealth,fair_top_k,0.0,0.0,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+reproductive endocrinologist with good outcomes,fertility,state+exact_specialty+telehealth,baseline,1.0,0.0026099438862064468,1.0,0.0,0.021992752495979245,0.0,7.040268381923513,-7.040268381923513
+reproductive endocrinologist with good outcomes,fertility,state+exact_specialty+telehealth,linear_fairness,1.0,0.0026099438862064468,1.0,0.0,0.021992752495979245,0.0,7.040268381923513,-7.040268381923513
+reproductive endocrinologist with good outcomes,fertility,state+exact_specialty+telehealth,mmr_fairness,1.0,0.0026099438862064468,1.0,0.0,0.021992752495979245,0.0,7.040268381923513,-7.040268381923513
+reproductive endocrinologist with good outcomes,fertility,state+exact_specialty+telehealth,fair_top_k,1.0,0.0026099438862064468,1.0,0.0,0.021992752495979245,0.0,7.040268381923513,-7.040268381923513
+fertility doctor with high success rates,fertility,state+intent+telehealth,baseline,0.0,0.0,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+fertility doctor with high success rates,fertility,state+intent+telehealth,linear_fairness,0.0,0.0,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+fertility doctor with high success rates,fertility,state+intent+telehealth,mmr_fairness,0.0,0.0,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+fertility doctor with high success rates,fertility,state+intent+telehealth,fair_top_k,0.0,0.0,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+affordable IVF clinic with telehealth,fertility,state+intent+telehealth,baseline,0.0,0.0,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+affordable IVF clinic with telehealth,fertility,state+intent+telehealth,linear_fairness,0.0,0.0,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+affordable IVF clinic with telehealth,fertility,state+intent+telehealth,mmr_fairness,0.0,0.0,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+affordable IVF clinic with telehealth,fertility,state+intent+telehealth,fair_top_k,0.0,0.0,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+fertility specialist near Ann Arbor,fertility,state+intent+telehealth,baseline,0.0,0.0,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+fertility specialist near Ann Arbor,fertility,state+intent+telehealth,linear_fairness,0.0,0.0,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+fertility specialist near Ann Arbor,fertility,state+intent+telehealth,mmr_fairness,0.0,0.0,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+fertility specialist near Ann Arbor,fertility,state+intent+telehealth,fair_top_k,0.0,0.0,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+best fertility clinic in Texas,fertility,state+intent+telehealth,baseline,0.0,0.0,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+best fertility clinic in Texas,fertility,state+intent+telehealth,linear_fairness,0.0,0.0,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+best fertility clinic in Texas,fertility,state+intent+telehealth,mmr_fairness,0.0,0.0,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+best fertility clinic in Texas,fertility,state+intent+telehealth,fair_top_k,0.0,0.0,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+fertility doctor accepting Medicare,fertility,state+intent+telehealth,baseline,0.0,0.0,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+fertility doctor accepting Medicare,fertility,state+intent+telehealth,linear_fairness,0.0,0.0,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+fertility doctor accepting Medicare,fertility,state+intent+telehealth,mmr_fairness,0.0,0.0,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+fertility doctor accepting Medicare,fertility,state+intent+telehealth,fair_top_k,0.0,0.0,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+IVF specialist female provider,fertility,state+intent+telehealth,baseline,0.0,0.0,0.9943007197111591,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+IVF specialist female provider,fertility,state+intent+telehealth,linear_fairness,0.0,0.0,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+IVF specialist female provider,fertility,state+intent+telehealth,mmr_fairness,0.0,0.0,0.9954906107570026,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+IVF specialist female provider,fertility,state+intent+telehealth,fair_top_k,0.0,0.0,0.9943007197111591,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+fertility treatment clinic with experience,fertility,state+intent+telehealth,baseline,0.0,0.0,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+fertility treatment clinic with experience,fertility,state+intent+telehealth,linear_fairness,0.0,0.0,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+fertility treatment clinic with experience,fertility,state+intent+telehealth,mmr_fairness,0.0,0.0,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+fertility treatment clinic with experience,fertility,state+intent+telehealth,fair_top_k,0.0,0.0,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+OBGYN near me,gynecology,state+exact_specialty+telehealth,baseline,1.0,0.13513513513513514,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+OBGYN near me,gynecology,state+exact_specialty+telehealth,linear_fairness,1.0,0.13513513513513514,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+OBGYN near me,gynecology,state+exact_specialty+telehealth,mmr_fairness,1.0,0.13513513513513514,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+OBGYN near me,gynecology,state+exact_specialty+telehealth,fair_top_k,1.0,0.13513513513513514,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+gynecologist in California,gynecology,state+exact_specialty+telehealth,baseline,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+gynecologist in California,gynecology,state+exact_specialty+telehealth,linear_fairness,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+gynecologist in California,gynecology,state+exact_specialty+telehealth,mmr_fairness,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+gynecologist in California,gynecology,state+exact_specialty+telehealth,fair_top_k,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+female gynecologist near Chicago,gynecology,state+exact_specialty+telehealth,baseline,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+female gynecologist near Chicago,gynecology,state+exact_specialty+telehealth,linear_fairness,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+female gynecologist near Chicago,gynecology,state+exact_specialty+telehealth,mmr_fairness,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+female gynecologist near Chicago,gynecology,state+exact_specialty+telehealth,fair_top_k,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+high quality OBGYN with good patient reviews,gynecology,state+exact_specialty+telehealth,baseline,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+high quality OBGYN with good patient reviews,gynecology,state+exact_specialty+telehealth,linear_fairness,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+high quality OBGYN with good patient reviews,gynecology,state+exact_specialty+telehealth,mmr_fairness,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+high quality OBGYN with good patient reviews,gynecology,state+exact_specialty+telehealth,fair_top_k,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+gynecologist who offers telehealth,gynecology,state+exact_specialty+telehealth,baseline,1.0,0.008936550491510277,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+gynecologist who offers telehealth,gynecology,state+exact_specialty+telehealth,linear_fairness,1.0,0.008936550491510277,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+gynecologist who offers telehealth,gynecology,state+exact_specialty+telehealth,mmr_fairness,1.0,0.008936550491510277,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+gynecologist who offers telehealth,gynecology,state+exact_specialty+telehealth,fair_top_k,1.0,0.008936550491510277,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+affordable OBGYN near me,gynecology,state+exact_specialty+telehealth,baseline,1.0,0.13513513513513514,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+affordable OBGYN near me,gynecology,state+exact_specialty+telehealth,linear_fairness,1.0,0.13513513513513514,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+affordable OBGYN near me,gynecology,state+exact_specialty+telehealth,mmr_fairness,1.0,0.13513513513513514,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+affordable OBGYN near me,gynecology,state+exact_specialty+telehealth,fair_top_k,1.0,0.13513513513513514,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+best OBGYN in New York,gynecology,state+exact_specialty+telehealth,baseline,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+best OBGYN in New York,gynecology,state+exact_specialty+telehealth,linear_fairness,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+best OBGYN in New York,gynecology,state+exact_specialty+telehealth,mmr_fairness,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+best OBGYN in New York,gynecology,state+exact_specialty+telehealth,fair_top_k,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+gynecologist specializing in hormonal disorders,gynecology,state+exact_specialty+telehealth,baseline,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+gynecologist specializing in hormonal disorders,gynecology,state+exact_specialty+telehealth,linear_fairness,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+gynecologist specializing in hormonal disorders,gynecology,state+exact_specialty+telehealth,mmr_fairness,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+gynecologist specializing in hormonal disorders,gynecology,state+exact_specialty+telehealth,fair_top_k,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+OBGYN accepting Medicare,gynecology,state+exact_specialty+telehealth,baseline,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+OBGYN accepting Medicare,gynecology,state+exact_specialty+telehealth,linear_fairness,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+OBGYN accepting Medicare,gynecology,state+exact_specialty+telehealth,mmr_fairness,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+OBGYN accepting Medicare,gynecology,state+exact_specialty+telehealth,fair_top_k,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+experienced gynecologist near me,gynecology,state+exact_specialty+telehealth,baseline,1.0,0.13513513513513514,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+experienced gynecologist near me,gynecology,state+exact_specialty+telehealth,linear_fairness,1.0,0.13513513513513514,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+experienced gynecologist near me,gynecology,state+exact_specialty+telehealth,mmr_fairness,1.0,0.13513513513513514,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+experienced gynecologist near me,gynecology,state+exact_specialty+telehealth,fair_top_k,1.0,0.13513513513513514,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+maternal fetal medicine specialist near me,maternal,state+exact_specialty+telehealth,baseline,1.0,0.13513513513513514,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+maternal fetal medicine specialist near me,maternal,state+exact_specialty+telehealth,linear_fairness,1.0,0.13513513513513514,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+maternal fetal medicine specialist near me,maternal,state+exact_specialty+telehealth,mmr_fairness,1.0,0.13513513513513514,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+maternal fetal medicine specialist near me,maternal,state+exact_specialty+telehealth,fair_top_k,1.0,0.13513513513513514,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+pregnancy doctor high risk specialist,maternal,state+exact_specialty+telehealth,baseline,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+pregnancy doctor high risk specialist,maternal,state+exact_specialty+telehealth,linear_fairness,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+pregnancy doctor high risk specialist,maternal,state+exact_specialty+telehealth,mmr_fairness,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+pregnancy doctor high risk specialist,maternal,state+exact_specialty+telehealth,fair_top_k,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+prenatal care doctor near me,maternal,state+intent+telehealth,baseline,1.0,0.00484027105517909,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+prenatal care doctor near me,maternal,state+intent+telehealth,linear_fairness,1.0,0.00484027105517909,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+prenatal care doctor near me,maternal,state+intent+telehealth,mmr_fairness,1.0,0.00484027105517909,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+prenatal care doctor near me,maternal,state+intent+telehealth,fair_top_k,1.0,0.00484027105517909,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+maternal care hospital with good outcomes,maternal,state+exact_specialty+telehealth,baseline,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+maternal care hospital with good outcomes,maternal,state+exact_specialty+telehealth,linear_fairness,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+maternal care hospital with good outcomes,maternal,state+exact_specialty+telehealth,mmr_fairness,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+maternal care hospital with good outcomes,maternal,state+exact_specialty+telehealth,fair_top_k,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+high risk pregnancy specialist California,maternal,state+exact_specialty+telehealth,baseline,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+high risk pregnancy specialist California,maternal,state+exact_specialty+telehealth,linear_fairness,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+high risk pregnancy specialist California,maternal,state+exact_specialty+telehealth,mmr_fairness,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+high risk pregnancy specialist California,maternal,state+exact_specialty+telehealth,fair_top_k,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+affordable prenatal care provider,maternal,state+intent+telehealth,baseline,1.0,2.9506576278188003e-05,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+affordable prenatal care provider,maternal,state+intent+telehealth,linear_fairness,1.0,2.9506576278188003e-05,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+affordable prenatal care provider,maternal,state+intent+telehealth,mmr_fairness,1.0,2.9506576278188003e-05,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+affordable prenatal care provider,maternal,state+intent+telehealth,fair_top_k,1.0,2.9506576278188003e-05,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+pregnancy doctor telehealth consultation,maternal,state+exact_specialty+telehealth,baseline,1.0,0.008936550491510277,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+pregnancy doctor telehealth consultation,maternal,state+exact_specialty+telehealth,linear_fairness,1.0,0.008936550491510277,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+pregnancy doctor telehealth consultation,maternal,state+exact_specialty+telehealth,mmr_fairness,1.0,0.008936550491510277,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+pregnancy doctor telehealth consultation,maternal,state+exact_specialty+telehealth,fair_top_k,1.0,0.008936550491510277,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+maternal health specialist with experience,maternal,state+exact_specialty+telehealth,baseline,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+maternal health specialist with experience,maternal,state+exact_specialty+telehealth,linear_fairness,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+maternal health specialist with experience,maternal,state+exact_specialty+telehealth,mmr_fairness,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+maternal health specialist with experience,maternal,state+exact_specialty+telehealth,fair_top_k,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+best pregnancy doctor near Ann Arbor,maternal,state+exact_specialty+telehealth,baseline,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+best pregnancy doctor near Ann Arbor,maternal,state+exact_specialty+telehealth,linear_fairness,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+best pregnancy doctor near Ann Arbor,maternal,state+exact_specialty+telehealth,mmr_fairness,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+best pregnancy doctor near Ann Arbor,maternal,state+exact_specialty+telehealth,fair_top_k,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+women's maternity care clinic,general,state+exact_specialty+telehealth,baseline,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+women's maternity care clinic,general,state+exact_specialty+telehealth,linear_fairness,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+women's maternity care clinic,general,state+exact_specialty+telehealth,mmr_fairness,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+women's maternity care clinic,general,state+exact_specialty+telehealth,fair_top_k,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+gynecologic oncologist near me,fertility,state+intent+telehealth,baseline,1.0,0.00484027105517909,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+gynecologic oncologist near me,fertility,state+intent+telehealth,linear_fairness,1.0,0.00484027105517909,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+gynecologic oncologist near me,fertility,state+intent+telehealth,mmr_fairness,1.0,0.00484027105517909,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+gynecologic oncologist near me,fertility,state+intent+telehealth,fair_top_k,1.0,0.00484027105517909,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+breast cancer specialist doctor,oncology,state+intent+telehealth,baseline,1.0,2.9506576278188003e-05,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+breast cancer specialist doctor,oncology,state+intent+telehealth,linear_fairness,1.0,2.9506576278188003e-05,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+breast cancer specialist doctor,oncology,state+intent+telehealth,mmr_fairness,1.0,2.9506576278188003e-05,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+breast cancer specialist doctor,oncology,state+intent+telehealth,fair_top_k,1.0,2.9506576278188003e-05,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+oncologist for women's cancer,general,state+exact_specialty+telehealth,baseline,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+oncologist for women's cancer,general,state+exact_specialty+telehealth,linear_fairness,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+oncologist for women's cancer,general,state+exact_specialty+telehealth,mmr_fairness,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+oncologist for women's cancer,general,state+exact_specialty+telehealth,fair_top_k,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+female oncology specialist California,oncology,state+intent+telehealth,baseline,1.0,2.9506576278188003e-05,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+female oncology specialist California,oncology,state+intent+telehealth,linear_fairness,1.0,2.9506576278188003e-05,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+female oncology specialist California,oncology,state+intent+telehealth,mmr_fairness,1.0,2.9506576278188003e-05,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+female oncology specialist California,oncology,state+intent+telehealth,fair_top_k,1.0,2.9506576278188003e-05,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+cancer doctor with high quality scores,general,state+intent+telehealth,baseline,1.0,2.9506576278188003e-05,1.0,0.35,0.021992752495979245,3.637999639320748,3.402268742602764,0.23573089671798408
+cancer doctor with high quality scores,general,state+intent+telehealth,linear_fairness,1.0,2.9506576278188003e-05,1.0,0.35,0.021992752495979245,3.637999639320748,3.402268742602764,0.23573089671798408
+cancer doctor with high quality scores,general,state+intent+telehealth,mmr_fairness,1.0,2.9506576278188003e-05,1.0,0.35,0.021992752495979245,3.637999639320748,3.402268742602764,0.23573089671798408
+cancer doctor with high quality scores,general,state+intent+telehealth,fair_top_k,1.0,2.9506576278188003e-05,1.0,0.35,0.021992752495979245,3.637999639320748,3.402268742602764,0.23573089671798408
+oncologist near me accepting Medicare,fertility,state+intent+telehealth,baseline,1.0,0.00484027105517909,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+oncologist near me accepting Medicare,fertility,state+intent+telehealth,linear_fairness,1.0,0.00484027105517909,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+oncologist near me accepting Medicare,fertility,state+intent+telehealth,mmr_fairness,1.0,0.00484027105517909,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+oncologist near me accepting Medicare,fertility,state+intent+telehealth,fair_top_k,1.0,0.00484027105517909,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+experienced cancer specialist hospital,fertility,state+intent+telehealth,baseline,1.0,2.9506576278188003e-05,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+experienced cancer specialist hospital,fertility,state+intent+telehealth,linear_fairness,1.0,2.9506576278188003e-05,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+experienced cancer specialist hospital,fertility,state+intent+telehealth,mmr_fairness,1.0,2.9506576278188003e-05,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+experienced cancer specialist hospital,fertility,state+intent+telehealth,fair_top_k,1.0,2.9506576278188003e-05,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+oncology clinic with good patient experience,oncology,state+intent+telehealth,baseline,1.0,2.9506576278188003e-05,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+oncology clinic with good patient experience,oncology,state+intent+telehealth,linear_fairness,1.0,2.9506576278188003e-05,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+oncology clinic with good patient experience,oncology,state+intent+telehealth,mmr_fairness,1.0,2.9506576278188003e-05,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+oncology clinic with good patient experience,oncology,state+intent+telehealth,fair_top_k,1.0,2.9506576278188003e-05,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+cancer doctor telehealth consultation,general,state+intent+telehealth,baseline,1.0,0.00014358841815819136,1.0,0.0,0.021992752495979245,0.0,7.040268381923513,-7.040268381923513
+cancer doctor telehealth consultation,general,state+intent+telehealth,linear_fairness,1.0,0.00014358841815819136,1.0,0.0,0.021992752495979245,0.0,7.040268381923513,-7.040268381923513
+cancer doctor telehealth consultation,general,state+intent+telehealth,mmr_fairness,1.0,0.00014358841815819136,1.0,0.0,0.021992752495979245,0.0,7.040268381923513,-7.040268381923513
+cancer doctor telehealth consultation,general,state+intent+telehealth,fair_top_k,1.0,0.00014358841815819136,1.0,0.0,0.021992752495979245,0.0,7.040268381923513,-7.040268381923513
+best oncology hospital near me,oncology,state+intent+telehealth,baseline,1.0,0.00484027105517909,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+best oncology hospital near me,oncology,state+intent+telehealth,linear_fairness,1.0,0.00484027105517909,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+best oncology hospital near me,oncology,state+intent+telehealth,mmr_fairness,1.0,0.00484027105517909,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+best oncology hospital near me,oncology,state+intent+telehealth,fair_top_k,1.0,0.00484027105517909,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+women's health doctor near me,general,state+exact_specialty+telehealth,baseline,1.0,0.13513513513513514,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+women's health doctor near me,general,state+exact_specialty+telehealth,linear_fairness,1.0,0.13513513513513514,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+women's health doctor near me,general,state+exact_specialty+telehealth,mmr_fairness,1.0,0.13513513513513514,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+women's health doctor near me,general,state+exact_specialty+telehealth,fair_top_k,1.0,0.13513513513513514,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+primary care doctor for women,general,state+exact_specialty+telehealth,baseline,1.0,0.00010697532614102557,1.0,0.95,0.021992752495979245,6.040268381923512,1.0,5.040268381923512
+primary care doctor for women,general,state+exact_specialty+telehealth,linear_fairness,1.0,0.00010697532614102557,1.0,0.95,0.021992752495979245,6.724803505137783,0.31546487678572877,6.409338628352054
+primary care doctor for women,general,state+exact_specialty+telehealth,mmr_fairness,1.0,0.00010697532614102557,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+primary care doctor for women,general,state+exact_specialty+telehealth,fair_top_k,1.0,0.00010697532614102557,1.0,0.95,0.021992752495979245,6.409338628352054,0.6309297535714575,5.778408874780596
+female primary care physician,general,state+exact_specialty+telehealth,baseline,1.0,0.0001296193080921334,1.0,0.0,0.021992752495979245,0.0,7.040268381923513,-7.040268381923513
+female primary care physician,general,state+exact_specialty+telehealth,linear_fairness,1.0,0.0001296193080921334,1.0,0.0,0.021992752495979245,0.0,7.040268381923513,-7.040268381923513
+female primary care physician,general,state+exact_specialty+telehealth,mmr_fairness,1.0,0.0001296193080921334,1.0,0.0,0.021992752495979245,0.0,7.040268381923513,-7.040268381923513
+female primary care physician,general,state+exact_specialty+telehealth,fair_top_k,1.0,0.0001296193080921334,1.0,0.0,0.021992752495979245,0.0,7.040268381923513,-7.040268381923513
+doctor specializing in women's health,general,state+exact_specialty+telehealth,baseline,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+doctor specializing in women's health,general,state+exact_specialty+telehealth,linear_fairness,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+doctor specializing in women's health,general,state+exact_specialty+telehealth,mmr_fairness,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+doctor specializing in women's health,general,state+exact_specialty+telehealth,fair_top_k,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+affordable women's health provider,general,state+exact_specialty+telehealth,baseline,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+affordable women's health provider,general,state+exact_specialty+telehealth,linear_fairness,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+affordable women's health provider,general,state+exact_specialty+telehealth,mmr_fairness,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+affordable women's health provider,general,state+exact_specialty+telehealth,fair_top_k,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+telehealth women's doctor,general,state+exact_specialty+telehealth,baseline,1.0,0.008936550491510277,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+telehealth women's doctor,general,state+exact_specialty+telehealth,linear_fairness,1.0,0.008936550491510277,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+telehealth women's doctor,general,state+exact_specialty+telehealth,mmr_fairness,1.0,0.008936550491510277,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+telehealth women's doctor,general,state+exact_specialty+telehealth,fair_top_k,1.0,0.008936550491510277,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+best women's health clinic California,gynecology,state+exact_specialty+telehealth,baseline,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+best women's health clinic California,gynecology,state+exact_specialty+telehealth,linear_fairness,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+best women's health clinic California,gynecology,state+exact_specialty+telehealth,mmr_fairness,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+best women's health clinic California,gynecology,state+exact_specialty+telehealth,fair_top_k,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+general doctor with experience in women's health,general,state+exact_specialty+telehealth,baseline,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+general doctor with experience in women's health,general,state+exact_specialty+telehealth,linear_fairness,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+general doctor with experience in women's health,general,state+exact_specialty+telehealth,mmr_fairness,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+general doctor with experience in women's health,general,state+exact_specialty+telehealth,fair_top_k,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+women's health specialist near Chicago,gynecology,state+exact_specialty+telehealth,baseline,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+women's health specialist near Chicago,gynecology,state+exact_specialty+telehealth,linear_fairness,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+women's health specialist near Chicago,gynecology,state+exact_specialty+telehealth,mmr_fairness,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+women's health specialist near Chicago,gynecology,state+exact_specialty+telehealth,fair_top_k,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+doctor for women's preventative care,general,state+exact_specialty+telehealth,baseline,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+doctor for women's preventative care,general,state+exact_specialty+telehealth,linear_fairness,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+doctor for women's preventative care,general,state+exact_specialty+telehealth,mmr_fairness,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+doctor for women's preventative care,general,state+exact_specialty+telehealth,fair_top_k,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+primary care doctor near me,general,state+exact_specialty+telehealth,baseline,1.0,0.029985007496251874,1.0,0.0,0.021992752495979245,0.0,7.040268381923513,-7.040268381923513
+primary care doctor near me,general,state+exact_specialty+telehealth,linear_fairness,1.0,0.029985007496251874,1.0,0.0,0.021992752495979245,0.0,7.040268381923513,-7.040268381923513
+primary care doctor near me,general,state+exact_specialty+telehealth,mmr_fairness,1.0,0.029985007496251874,1.0,0.0,0.021992752495979245,0.0,7.040268381923513,-7.040268381923513
+primary care doctor near me,general,state+exact_specialty+telehealth,fair_top_k,1.0,0.029985007496251874,1.0,0.0,0.021992752495979245,0.0,7.040268381923513,-7.040268381923513
+general physician California,general,state+intent+telehealth,baseline,1.0,2.9506576278188003e-05,1.0,0.0,0.021992752495979245,0.0,7.040268381923513,-7.040268381923513
+general physician California,general,state+intent+telehealth,linear_fairness,1.0,2.9506576278188003e-05,1.0,0.0,0.021992752495979245,0.0,7.040268381923513,-7.040268381923513
+general physician California,general,state+intent+telehealth,mmr_fairness,1.0,2.9506576278188003e-05,1.0,0.0,0.021992752495979245,0.0,7.040268381923513,-7.040268381923513
+general physician California,general,state+intent+telehealth,fair_top_k,1.0,2.9506576278188003e-05,1.0,0.0,0.021992752495979245,0.0,7.040268381923513,-7.040268381923513
+internal medicine doctor near me,general,state+intent+telehealth,baseline,1.0,0.00484027105517909,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+internal medicine doctor near me,general,state+intent+telehealth,linear_fairness,1.0,0.00484027105517909,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+internal medicine doctor near me,general,state+intent+telehealth,mmr_fairness,1.0,0.00484027105517909,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+internal medicine doctor near me,general,state+intent+telehealth,fair_top_k,1.0,0.00484027105517909,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+family doctor accepting Medicare,general,state+intent+telehealth,baseline,1.0,2.9506576278188003e-05,1.0,0.0,0.021992752495979245,0.0,7.040268381923513,-7.040268381923513
+family doctor accepting Medicare,general,state+intent+telehealth,linear_fairness,1.0,2.9506576278188003e-05,1.0,0.0,0.021992752495979245,0.0,7.040268381923513,-7.040268381923513
+family doctor accepting Medicare,general,state+intent+telehealth,mmr_fairness,1.0,2.9506576278188003e-05,1.0,0.0,0.021992752495979245,0.0,7.040268381923513,-7.040268381923513
+family doctor accepting Medicare,general,state+intent+telehealth,fair_top_k,1.0,2.9506576278188003e-05,1.0,0.0,0.021992752495979245,0.0,7.040268381923513,-7.040268381923513
+doctor with good patient reviews,general,state+intent+telehealth,baseline,1.0,2.9506576278188003e-05,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+doctor with good patient reviews,general,state+intent+telehealth,linear_fairness,1.0,2.9506576278188003e-05,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+doctor with good patient reviews,general,state+intent+telehealth,mmr_fairness,1.0,2.9506576278188003e-05,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+doctor with good patient reviews,general,state+intent+telehealth,fair_top_k,1.0,2.9506576278188003e-05,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+high quality doctor near me,general,state+intent+telehealth,baseline,1.0,0.00484027105517909,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+high quality doctor near me,general,state+intent+telehealth,linear_fairness,1.0,0.00484027105517909,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+high quality doctor near me,general,state+intent+telehealth,mmr_fairness,1.0,0.00484027105517909,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+high quality doctor near me,general,state+intent+telehealth,fair_top_k,1.0,0.00484027105517909,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+affordable doctor near me,general,state+intent+telehealth,baseline,1.0,0.00484027105517909,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+affordable doctor near me,general,state+intent+telehealth,linear_fairness,1.0,0.00484027105517909,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+affordable doctor near me,general,state+intent+telehealth,mmr_fairness,1.0,0.00484027105517909,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+affordable doctor near me,general,state+intent+telehealth,fair_top_k,1.0,0.00484027105517909,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+telehealth doctor California,general,state+intent+telehealth,baseline,1.0,0.00014358841815819136,1.0,0.0,0.021992752495979245,0.0,7.040268381923513,-7.040268381923513
+telehealth doctor California,general,state+intent+telehealth,linear_fairness,1.0,0.00014358841815819136,1.0,0.0,0.021992752495979245,0.0,7.040268381923513,-7.040268381923513
+telehealth doctor California,general,state+intent+telehealth,mmr_fairness,1.0,0.00014358841815819136,1.0,0.0,0.021992752495979245,0.0,7.040268381923513,-7.040268381923513
+telehealth doctor California,general,state+intent+telehealth,fair_top_k,1.0,0.00014358841815819136,1.0,0.0,0.021992752495979245,0.0,7.040268381923513,-7.040268381923513
+experienced doctor near Chicago,general,state+intent+telehealth,baseline,1.0,2.9506576278188003e-05,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+experienced doctor near Chicago,general,state+intent+telehealth,linear_fairness,1.0,2.9506576278188003e-05,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+experienced doctor near Chicago,general,state+intent+telehealth,mmr_fairness,1.0,2.9506576278188003e-05,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+experienced doctor near Chicago,general,state+intent+telehealth,fair_top_k,1.0,2.9506576278188003e-05,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+best doctor in Texas,general,state+intent+telehealth,baseline,1.0,2.9506576278188003e-05,1.0,0.1,0.021992752495979245,1.6309297535714575,5.409338628352055,-3.778408874780597
+best doctor in Texas,general,state+intent+telehealth,linear_fairness,1.0,2.9506576278188003e-05,0.9771507685190429,0.3,0.021992752495979245,2.8560284872023365,4.184239894721175,-1.3282114075188387
+best doctor in Texas,general,state+intent+telehealth,mmr_fairness,1.0,2.9506576278188003e-05,1.0,0.1,0.021992752495979245,1.6309297535714575,5.409338628352055,-3.778408874780597
+best doctor in Texas,general,state+intent+telehealth,fair_top_k,1.0,2.9506576278188003e-05,0.9702431577622285,0.35,0.021992752495979245,3.043814004137419,3.996454377786093,-0.9526403736486739
+doctor for hormone imbalance,general,state+intent+telehealth,baseline,1.0,2.9506576278188003e-05,0.9366518707424226,0.85,0.021992752495979245,4.909338628352055,2.1309297535714578,2.778408874780597
+doctor for hormone imbalance,general,state+intent+telehealth,linear_fairness,1.0,2.9506576278188003e-05,0.9840124749202851,0.85,0.021992752495979245,5.983280361449715,1.0569880204737967,4.926292340975919
+doctor for hormone imbalance,general,state+intent+telehealth,mmr_fairness,1.0,2.9506576278188003e-05,0.9416416381061924,0.85,0.021992752495979245,5.022485821117513,2.0177825608059994,3.004703260311514
+doctor for hormone imbalance,general,state+intent+telehealth,fair_top_k,1.0,2.9506576278188003e-05,0.9667486819534329,0.85,0.021992752495979245,5.591809263044119,1.4484591188793923,4.143350144164727
+doctor for pelvic pain,gynecology,state+intent+telehealth,baseline,1.0,2.9506576278188003e-05,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+doctor for pelvic pain,gynecology,state+intent+telehealth,linear_fairness,1.0,2.9506576278188003e-05,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+doctor for pelvic pain,gynecology,state+intent+telehealth,mmr_fairness,1.0,2.9506576278188003e-05,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+doctor for pelvic pain,gynecology,state+intent+telehealth,fair_top_k,1.0,2.9506576278188003e-05,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+doctor for irregular periods,general,state+intent+telehealth,baseline,1.0,2.9506576278188003e-05,0.9366518707424226,0.85,0.021992752495979245,4.909338628352055,2.1309297535714578,2.778408874780597
+doctor for irregular periods,general,state+intent+telehealth,linear_fairness,1.0,2.9506576278188003e-05,0.9840124749202851,0.85,0.021992752495979245,5.983280361449715,1.0569880204737967,4.926292340975919
+doctor for irregular periods,general,state+intent+telehealth,mmr_fairness,1.0,2.9506576278188003e-05,0.9416416381061924,0.85,0.021992752495979245,5.022485821117513,2.0177825608059994,3.004703260311514
+doctor for irregular periods,general,state+intent+telehealth,fair_top_k,1.0,2.9506576278188003e-05,0.9667486819534329,0.85,0.021992752495979245,5.591809263044119,1.4484591188793923,4.143350144164727
+doctor for abdominal pain female,general,state+intent+telehealth,baseline,1.0,2.9506576278188003e-05,0.9482036933913165,0.35,0.021992752495979245,2.412629584516888,4.6276387974066235,-2.2150092128897354
+doctor for abdominal pain female,general,state+intent+telehealth,linear_fairness,1.0,2.9506576278188003e-05,0.993826017987639,0.35,0.021992752495979245,3.453464516106477,3.5868038658170356,-0.1333393497105586
+doctor for abdominal pain female,general,state+intent+telehealth,mmr_fairness,1.0,2.9506576278188003e-05,0.993826017987639,0.35,0.021992752495979245,3.453464516106477,3.5868038658170356,-0.1333393497105586
+doctor for abdominal pain female,general,state+intent+telehealth,fair_top_k,1.0,2.9506576278188003e-05,0.9800979447597801,0.35,0.021992752495979245,3.0951002192089536,3.9451681627145585,-0.8500679435056049
+doctor for fertility issues,fertility,state+intent+telehealth,baseline,0.0,0.0,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+doctor for fertility issues,fertility,state+intent+telehealth,linear_fairness,0.0,0.0,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+doctor for fertility issues,fertility,state+intent+telehealth,mmr_fairness,0.0,0.0,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+doctor for fertility issues,fertility,state+intent+telehealth,fair_top_k,0.0,0.0,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+doctor for pregnancy complications,maternal,state+exact_specialty+telehealth,baseline,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+doctor for pregnancy complications,maternal,state+exact_specialty+telehealth,linear_fairness,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+doctor for pregnancy complications,maternal,state+exact_specialty+telehealth,mmr_fairness,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+doctor for pregnancy complications,maternal,state+exact_specialty+telehealth,fair_top_k,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+doctor for menopause symptoms,general,state+intent+telehealth,baseline,1.0,2.9506576278188003e-05,0.9366518707424226,0.85,0.021992752495979245,4.909338628352055,2.1309297535714578,2.778408874780597
+doctor for menopause symptoms,general,state+intent+telehealth,linear_fairness,1.0,2.9506576278188003e-05,0.9840124749202851,0.85,0.021992752495979245,5.983280361449715,1.0569880204737967,4.926292340975919
+doctor for menopause symptoms,general,state+intent+telehealth,mmr_fairness,1.0,2.9506576278188003e-05,0.9416416381061924,0.85,0.021992752495979245,5.022485821117513,2.0177825608059994,3.004703260311514
+doctor for menopause symptoms,general,state+intent+telehealth,fair_top_k,1.0,2.9506576278188003e-05,0.9667486819534329,0.85,0.021992752495979245,5.591809263044119,1.4484591188793923,4.143350144164727
+doctor for reproductive health concerns,fertility,state+intent+telehealth,baseline,0.0,0.0,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+doctor for reproductive health concerns,fertility,state+intent+telehealth,linear_fairness,0.0,0.0,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+doctor for reproductive health concerns,fertility,state+intent+telehealth,mmr_fairness,0.0,0.0,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+doctor for reproductive health concerns,fertility,state+intent+telehealth,fair_top_k,0.0,0.0,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+doctor for chronic fatigue female,general,state+intent+telehealth,baseline,1.0,2.9506576278188003e-05,1.0,0.0,0.021992752495979245,0.0,7.040268381923513,-7.040268381923513
+doctor for chronic fatigue female,general,state+intent+telehealth,linear_fairness,1.0,2.9506576278188003e-05,1.0,0.0,0.021992752495979245,0.0,7.040268381923513,-7.040268381923513
+doctor for chronic fatigue female,general,state+intent+telehealth,mmr_fairness,1.0,2.9506576278188003e-05,1.0,0.0,0.021992752495979245,0.0,7.040268381923513,-7.040268381923513
+doctor for chronic fatigue female,general,state+intent+telehealth,fair_top_k,1.0,2.9506576278188003e-05,1.0,0.0,0.021992752495979245,0.0,7.040268381923513,-7.040268381923513
+doctor for unexplained pain women,general,state+exact_specialty+telehealth,baseline,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+doctor for unexplained pain women,general,state+exact_specialty+telehealth,linear_fairness,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+doctor for unexplained pain women,general,state+exact_specialty+telehealth,mmr_fairness,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+doctor for unexplained pain women,general,state+exact_specialty+telehealth,fair_top_k,1.0,0.000611134877467457,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+female doctor near me with telehealth,general,state+intent+telehealth,baseline,1.0,0.006555227794165847,1.0,0.25,0.021992752495979245,2.9484591188793923,4.09180926304412,-1.143350144164728
+female doctor near me with telehealth,general,state+intent+telehealth,linear_fairness,1.0,0.006555227794165847,0.9970067025064323,0.25,0.021992752495979245,2.8739897479140217,4.16627863400949,-1.2922888860954687
+female doctor near me with telehealth,general,state+intent+telehealth,mmr_fairness,1.0,0.006555227794165847,1.0,0.25,0.021992752495979245,2.9484591188793923,4.09180926304412,-1.143350144164728
+female doctor near me with telehealth,general,state+intent+telehealth,fair_top_k,1.0,0.006555227794165847,1.0,0.25,0.021992752495979245,2.9484591188793923,4.09180926304412,-1.143350144164728
+affordable doctor California with good reviews,general,state+intent+telehealth,baseline,1.0,2.9506576278188003e-05,1.0,0.0,0.021992752495979245,0.0,7.040268381923513,-7.040268381923513
+affordable doctor California with good reviews,general,state+intent+telehealth,linear_fairness,1.0,2.9506576278188003e-05,0.9613750117878349,0.5,0.021992752495979245,3.6600641092010053,3.380204272722507,0.27985983647849855
+affordable doctor California with good reviews,general,state+intent+telehealth,mmr_fairness,1.0,2.9506576278188003e-05,0.9412915722189712,0.1,0.021992752495979245,0.4590484618567121,6.5812199200668005,-6.122171458210088
+affordable doctor California with good reviews,general,state+intent+telehealth,fair_top_k,1.0,2.9506576278188003e-05,0.9669923637817465,0.35,0.021992752495979245,2.9128842505659613,4.12738413135755,-1.2144998807915885
+experienced doctor near Ann Arbor accepting Medicare,general,state+intent+telehealth,baseline,1.0,2.9506576278188003e-05,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+experienced doctor near Ann Arbor accepting Medicare,general,state+intent+telehealth,linear_fairness,1.0,2.9506576278188003e-05,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+experienced doctor near Ann Arbor accepting Medicare,general,state+intent+telehealth,mmr_fairness,1.0,2.9506576278188003e-05,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+experienced doctor near Ann Arbor accepting Medicare,general,state+intent+telehealth,fair_top_k,1.0,2.9506576278188003e-05,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+telehealth specialist with high quality scores,fertility,state+intent+telehealth,baseline,1.0,0.00014358841815819136,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+telehealth specialist with high quality scores,fertility,state+intent+telehealth,linear_fairness,1.0,0.00014358841815819136,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+telehealth specialist with high quality scores,fertility,state+intent+telehealth,mmr_fairness,1.0,0.00014358841815819136,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+telehealth specialist with high quality scores,fertility,state+intent+telehealth,fair_top_k,1.0,0.00014358841815819136,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+doctor near me with high patient satisfaction,general,state+intent+telehealth,baseline,1.0,0.00484027105517909,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+doctor near me with high patient satisfaction,general,state+intent+telehealth,linear_fairness,1.0,0.00484027105517909,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+doctor near me with high patient satisfaction,general,state+intent+telehealth,mmr_fairness,1.0,0.00484027105517909,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+doctor near me with high patient satisfaction,general,state+intent+telehealth,fair_top_k,1.0,0.00484027105517909,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+best affordable doctor near Chicago,general,state+intent+telehealth,baseline,1.0,2.9506576278188003e-05,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+best affordable doctor near Chicago,general,state+intent+telehealth,linear_fairness,1.0,2.9506576278188003e-05,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+best affordable doctor near Chicago,general,state+intent+telehealth,mmr_fairness,1.0,2.9506576278188003e-05,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+best affordable doctor near Chicago,general,state+intent+telehealth,fair_top_k,1.0,2.9506576278188003e-05,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+high quality specialist with telehealth,fertility,state+intent+telehealth,baseline,1.0,0.00014358841815819136,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+high quality specialist with telehealth,fertility,state+intent+telehealth,linear_fairness,1.0,0.00014358841815819136,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+high quality specialist with telehealth,fertility,state+intent+telehealth,mmr_fairness,1.0,0.00014358841815819136,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+high quality specialist with telehealth,fertility,state+intent+telehealth,fair_top_k,1.0,0.00014358841815819136,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+doctor near me female provider good outcomes,general,state+intent+telehealth,baseline,1.0,0.00484027105517909,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+doctor near me female provider good outcomes,general,state+intent+telehealth,linear_fairness,1.0,0.00484027105517909,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+doctor near me female provider good outcomes,general,state+intent+telehealth,mmr_fairness,1.0,0.00484027105517909,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+doctor near me female provider good outcomes,general,state+intent+telehealth,fair_top_k,1.0,0.00484027105517909,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+experienced telehealth doctor California,general,state+intent+telehealth,baseline,1.0,0.00014358841815819136,1.0,0.0,0.021992752495979245,0.0,7.040268381923513,-7.040268381923513
+experienced telehealth doctor California,general,state+intent+telehealth,linear_fairness,1.0,0.00014358841815819136,1.0,0.0,0.021992752495979245,0.0,7.040268381923513,-7.040268381923513
+experienced telehealth doctor California,general,state+intent+telehealth,mmr_fairness,1.0,0.00014358841815819136,1.0,0.0,0.021992752495979245,0.0,7.040268381923513,-7.040268381923513
+experienced telehealth doctor California,general,state+intent+telehealth,fair_top_k,1.0,0.00014358841815819136,1.0,0.0,0.021992752495979245,0.0,7.040268381923513,-7.040268381923513
+affordable experienced doctor near me,general,state+intent+telehealth,baseline,1.0,0.00484027105517909,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+affordable experienced doctor near me,general,state+intent+telehealth,linear_fairness,1.0,0.00484027105517909,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+affordable experienced doctor near me,general,state+intent+telehealth,mmr_fairness,1.0,0.00484027105517909,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
+affordable experienced doctor near me,general,state+intent+telehealth,fair_top_k,1.0,0.00484027105517909,1.0,1.0,0.021992752495979245,7.040268381923513,0.0,7.040268381923513
